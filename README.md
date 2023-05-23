@@ -46,6 +46,5 @@ The process of honing my craft in frontend development has been an enjoyable and
 
 ## Author
 
-- Website - 
 - Frontend Mentor - [@aghlaabdo](https://www.frontendmentor.io/profile/Aghlaabdo)
 - Twitter - [aghla_abdo](https://twitter.com/aghla_abdo)
