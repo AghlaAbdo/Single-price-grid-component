@@ -34,6 +34,7 @@ main {
     max-width: 635px;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
 }
 .top-section {
     background-color: white;
@@ -41,7 +42,6 @@ main {
 }
 .bottom-section-container {
     display: flex;
-    
 }
 .bottom-item {
     flex: 1;
