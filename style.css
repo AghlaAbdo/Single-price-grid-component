@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    Font-size: 16px;
+}
+h1 {
+   font-size: 24px;
+   color: hsl(179, 62%, 43%);
+}
+h2 {
+    font-size: 18px;
+    color: hsl(71, 73%, 54%);
+    margin: 28px auto 16px;
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.65;
+}
+main {
+    max-width: 635px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.top-section {
+    background-color: white;
+    padding: 40px;
+}
+.bottom-section-container {
+    display: flex;
+    
+}
+.bottom-item {
+    flex: 1;
+    padding: 40px;
+    color: white;
+}
+.right p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.left {
+    background-color: hsl(179, 62%, 43%);
+}
+.right {
+    background-color: hsl(179, 47%, 52%);
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.price-p {
+    color: hsla(203, 44%, 93%, 0.65) !important;
+}
+.left p {
+    font-size: 16px;
+    color: white;
+}
+span {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 16px;
+    margin-top: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: .25s;
+}
+a:hover {
+    position: relative;
+    bottom: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 400px) {
+    main {
+        margin: 72px 32px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 15px;
+        margin: 24px auto;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p, .right p {
+        font-size: 13px;
+    }
+    .top-section, .bottom-item {
+        padding: 24px;
+    }
+    .bottom-section-container {
+        flex-direction: column;
+    }
+}
